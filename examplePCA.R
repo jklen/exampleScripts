@@ -1,5 +1,5 @@
 
-library(dummy)
+library(dummy) # for creating dummy variables
 
 df <- data.table::fread(input = 'diamondsProblem.csv')
 df <- as.data.frame(df)
